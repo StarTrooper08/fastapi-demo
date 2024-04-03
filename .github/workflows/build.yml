@@ -20,9 +20,5 @@ jobs:
       - name: Build Image
         shell: bash
         run: docker build . -t atharvas08/fastapi-demo:latest
-          
-      - name: docker images
-        shell: bash
-        run: docker images
         
         
